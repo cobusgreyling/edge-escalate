@@ -1,0 +1,16 @@
+{"id":"t-greet","split":"train","label":"stay","unresolved":false,"novel":false,"high_risk":false,"tokens":6,"text":"Hello, I need a hand."}
+{"id":"t-resolved","split":"train","label":"stay","unresolved":false,"novel":false,"high_risk":false,"tokens":12,"text":"Thanks, the callback time is already on the file."}
+{"id":"t-unresolved-known","split":"train","label":"stay","unresolved":true,"novel":false,"high_risk":false,"tokens":14,"text":"The known claim is still waiting on the caller to say thanks."}
+{"id":"t-risk-closed","split":"train","label":"stay","unresolved":false,"novel":false,"high_risk":true,"tokens":16,"text":"The payment dispute on this policy is already closed."}
+{"id":"t-unresolved-novel","split":"train","label":"escalate","unresolved":true,"novel":true,"high_risk":false,"tokens":18,"text":"This policy exception has not been seen on device, and the claim is still open."}
+{"id":"t-unresolved-risk","split":"train","label":"escalate","unresolved":true,"novel":false,"high_risk":true,"tokens":15,"text":"The open claim is missing the incident date and it changes the payout."}
+{"id":"t-open-novel-risk","split":"train","label":"escalate","unresolved":true,"novel":true,"high_risk":true,"tokens":20,"text":"A new high-value claim is open and the device has no matching case."}
+{"id":"t-long-novel-open","split":"train","label":"escalate","unresolved":true,"novel":true,"high_risk":false,"tokens":90,"text":"The caller described a new route, a new address, and an open delivery that the device has not stored."}
+{"id":"h-greet","split":"holdout","label":"stay","unresolved":false,"novel":false,"high_risk":false,"tokens":4,"text":"Good morning."}
+{"id":"h-unresolved-known","split":"holdout","label":"stay","unresolved":true,"novel":false,"high_risk":false,"tokens":13,"text":"The known shift swap is still waiting for a yes."}
+{"id":"h-risk-closed","split":"holdout","label":"stay","unresolved":false,"novel":false,"high_risk":true,"tokens":14,"text":"The payout question on this file was settled yesterday."}
+{"id":"h-closed-novel-risk","split":"holdout","label":"stay","unresolved":false,"novel":true,"high_risk":true,"tokens":18,"text":"A new high-value dispute is already closed. Do not reopen it."}
+{"id":"h-unresolved-risk","split":"holdout","label":"escalate","unresolved":true,"novel":false,"high_risk":true,"tokens":16,"text":"The open claim still has no incident date, and the amount is above the desk limit."}
+{"id":"h-unresolved-novel","split":"holdout","label":"escalate","unresolved":true,"novel":true,"high_risk":false,"tokens":17,"text":"The device has not seen this delivery exception, and the stop is still open."}
+{"id":"h-open-all","split":"holdout","label":"escalate","unresolved":true,"novel":true,"high_risk":true,"tokens":22,"text":"A new claim is open, the payout is high, and no local case matches it."}
+{"id":"h-long-unresolved","split":"holdout","label":"escalate","unresolved":true,"novel":false,"high_risk":false,"tokens":120,"text":"The caller retold the whole known claim, still unresolved, with no new risk and no new fact."}
